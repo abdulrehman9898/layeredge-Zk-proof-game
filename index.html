@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LayerEdge</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <div id="cursor"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#tutorial">Tutorial</a></li>
+      <li><a href="#zk-game">ZK Proof Game</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1 class="fade-in">Welcome to LayerEdgeZK Proof Game</h1>
+    <p class="fade-in-delay">Explore Zero-Knowledge Proofs through interactive learning and games.</p>
+  </section>
+
+  <!-- Tutorial Section -->
+  <section id="tutorial">
+    <h2>Interactive LayerEdge Tutorial</h2>
+    <p>Understand ZKPs with guided, hands-on steps.</p>
+    <button onclick="openModal()">Start Tutorial</button>
+  </section>
+
+  <!-- ZK Proof Game Section -->
+  <section id="zk-game">
+    <h2>ZK Proof Game</h2>
+    <p>Try your luck in a decentralized lottery powered by proof aggregation!</p>
+    <button onclick="playGame()">Generate ZK Proof</button>
+    <div id="gameOutput"></div>
+    <div id="leaderboard"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About LayerEdge</h2>
+    <p>
+Key Features:
+
+1. Zero-Knowledge Proofs (ZKPs): LayerEdge utilizes ZKPs to enable secure and private transactions, ensuring that sensitive data is protected from unauthorized access.
+2. Proof Aggregation: The project employs proof aggregation techniques to improve the scalability and performance of the network, reducing the computational overhead associated with ZKPs.
+3. Layer 2 Scaling: LayerEdge is designed as a Layer 2 scaling solution, providing a secure and efficient platform for dApps and users to interact with blockchain networks.
+4. Decentralized and Secure: The project is built on a decentralized architecture, ensuring that data is distributed across the network and resistant to censorship and tampering.
+
+Benefits:
+
+1. Improved Scalability: LayerEdge's proof aggregation and Layer 2 scaling architecture enable faster transaction processing and increased network capacity.
+2. Enhanced Security: The use of ZKPs and proof aggregation ensures that transactions are secure and private, protecting sensitive data from unauthorized access.
+3. Increased Adoption: By providing a scalable and secure platform, LayerEdge can drive the adoption of blockchain technology and decentralized applications.
+
+Potential Applications:
+
+1. Decentralized Finance (DeFi): LayerEdge can be used to create secure and scalable DeFi applications, such as lending platforms and stablecoins.
+2. Gaming: The project's ZKPs and proof aggregation features can be leveraged to create secure and transparent gaming experiences.
+3. Supply Chain Management: LayerEdge can be used to create secure and efficient supply chain management systems, enabling the tracking and verification of goods.
+
+Technical Details:
+
+1. Cryptographic Techniques: LayerEdge employs advanced cryptographic techniques, including ZKPs and homomorphic encryption, to ensure the security and privacy of transactions.
+2. Smart Contracts: The project utilizes smart contracts to automate the execution of transactions and ensure the integrity of the network.
+3. Decentralized Network: LayerEdge is built on a decentralized network architecture, ensuring that data is distributed across the network and resistant to censorship and tampering.
+
+By combining ZKPs, proof aggregation, and Layer 2 scaling, LayerEdge offers a powerful solution for blockchain networks and decentralized applications, enabling secure, scalable, and private transactions.</p>
+  </section>
+
+  <!-- Modal -->
+  <div id="tutorialModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3>LayerEdge Tutorial</h3>
+      <p>
+LayerEdge is a cutting-edge project that leverages Zero-Knowledge Proofs (ZKPs) and proof aggregation to create a secure, scalable, and private Layer 2 scaling solution for blockchain networks. The project aims to provide a robust and efficient platform for decentralized applications (dApps) and users, while ensuring the highest level of security and data protection.
+</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us:</p>
+    <div class="socials">
+      <a href="https://x.com/abdulrehmanonX" title="Twitter">X</a>
+      <a href="https://layeredge.io/" title="Website">LayerEdge.io</a>
+     
+    </div>
+  </footer>
+
+  
+
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
